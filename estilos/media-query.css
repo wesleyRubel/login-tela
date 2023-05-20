@@ -9,7 +9,7 @@
     
     section{
         width: 90%;
-        height: 400px;
+        height: 65vh;
     }
 
     section > div#background{
@@ -65,19 +65,19 @@
 
     div#formulario > h1{
         font-size: 2em;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
 
     div#formulario > p{
         font-size: 1em;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }    
     
     div.campo{
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
 
     form > input[type=submit]{
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
 }
