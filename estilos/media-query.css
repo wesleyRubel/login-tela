@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/*Configurações para tablets*/
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    html,body{
+        background-image: linear-gradient(to top, #7883FB,#161E7A);
+    }  
+    
+    section{
+        height: 350px;
+    }
+
+    section > div#background{
+        width: 30%;
+        height: 100%;
+        float: left;
+    }
+
+    section > div#formulario{  
+        float: right;    
+        width: 70%;
+    }
+
+    div#formulario > h1{
+        font-size: 2em;
+    }
+
+    div#formulario > p{
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width:993px) {
+    html,body{
+        background-image: linear-gradient(to top, #7883FB,#161E7A);
+    }  
+    
+    section{
+        height: 400px;
+    }
+
+    section > div#background{
+        width: 50%;
+        height: 100%;
+        float: right;
+    }
+
+    section > div#formulario{  
+        float: left;    
+        width: 50%;
+    }
+
+    div#formulario > h1{
+        font-size: 2em;
+    }
+
+    div#formulario > p{
+        font-size: 1em;
+    }        
+}
